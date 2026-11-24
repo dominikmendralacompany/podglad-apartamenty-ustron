@@ -19,7 +19,7 @@ section{padding:72px 0}
 .kicker{font-family:var(--head);font-weight:600;font-size:17px;letter-spacing:2.5px;text-transform:uppercase;color:var(--rust)}
 .lead{font-size:20px;color:var(--muted);max-width:760px;margin-top:12px}
 .muted{color:var(--muted)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--head);font-size:21px;font-weight:600;letter-spacing:.5px;padding:13px 26px;border-radius:999px;border:2px solid transparent;cursor:pointer;text-decoration:none;transition:.15s}
+.btn{white-space:nowrap;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--head);font-size:21px;font-weight:600;letter-spacing:.5px;padding:13px 26px;border-radius:999px;border:2px solid transparent;cursor:pointer;text-decoration:none;transition:.15s}
 .btn-rust{background:var(--rust);color:#fff}
 .btn-rust:hover{background:var(--rust-d)}
 .btn-line{background:transparent;color:var(--ink);border-color:var(--ink)}
